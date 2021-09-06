@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<base url="/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>DEMO</title>
+<noscript id="jss-insertion-point"></noscript>
+<style>
+html, body, #root {
+	height: 100%;
+	max-height: 100%;
+	overflow: hidden;
+}
+
+@media print {
+	html, body, #root {
+		display: table;
+		overflow: visible;
+	}
+}
+
+body {
+	margin: 0;
+}
+
+div:focus {
+	outline: none;
+}
+
+.ReactVirtualized__Grid__innerScrollContainer {
+	transition: 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+}
+</style>
+</head>
+<body>
+	<div id="root"></div>
+	<script type="text/javascript" src="/index.js" charset="utf-8"></script>
+</body>
+</html>

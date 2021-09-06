@@ -1,0 +1,20 @@
+{
+	"extends": "tslint-config-standard",
+	"rules": {
+		"indent": [
+			true,
+			"spaces"
+		],
+		"curly": [
+			true,
+			"as-needed"
+		],
+		"ter-indent": false,
+		"no-floating-promises": false,
+		"space-before-function-paren": false,
+		"semicolon": [
+			true,
+			"never"
+		]
+	}
+}

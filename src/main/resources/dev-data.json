@@ -1,0 +1,142 @@
+{
+	"organizations": [
+		{
+			"id": 1,
+			"name": "Industrieverband Massivumformung e.V.",
+			"email": "hain@massivumformung.de",
+			"phone": "+49 233-1958812",
+			"cellphone": "+49 173-9475297",
+			"address": {
+				"street": "Goldene Pforte",
+				"number": "1",
+				"zip": "D-58093",
+				"place": "Hagen",
+				"country": "Deutschland"
+			},
+			"fax": "+49 233-1958712",
+			"website": "www.massivumformung.de"
+		}
+	],
+	"users": [
+		{
+			"id": 1,
+			"username": "admin",
+			"name": "Administrator",
+			"email": "admin@company.com",
+			"password": "12345sechs",
+			"role": "ROLE_ADMIN"
+		},
+		{
+			"id": 2,
+			"username": "user",
+			"name": "Some User",
+			"email": "user@company.com",
+			"password": "789zehn",
+			"role": "ROLE_USER"
+		},
+		{
+			"id": 3,
+			"username": "username",
+			"name": "name",
+			"email": "email@email.com",
+			"password": "1abcDEF@",
+			"role": "ROLE_USER"
+		},
+		{
+			"id": 4,
+			"username": "test",
+			"name": "test user",
+			"email": "test@email.com",
+			"password": "@abcDEF1",
+			"role": "ROLE_USER"
+		},
+		{
+			"id": 5,
+			"username": "orgadmin",
+			"name": "Organization Administrator",
+			"email": "orgadmin@company.com",
+			"password": "1234abcd",
+			"role": "ROLE_ORGANIZATION_ADMIN",
+			"organization": {
+				"id": 1
+			}
+		},
+		{
+			"id": 6,
+			"username": "benutzer6",
+			"name": "Benutzer6",
+			"email": "gandi.kuntxurbedja@gmail.com",
+			"password": "1234abcd",
+			"role": "ROLE_USER",
+			"organization": {
+				"id": 1
+			}
+		},
+		{
+			"id": 7,
+			"username": "benutzer7",
+			"name": "Benutzer7",
+			"email": "benutzer7@company.com",
+			"password": "1234abcd",
+			"role": "ROLE_USER",
+			"organization": {
+				"id": 1
+			}
+		},
+		{
+			"id": 8,
+			"username": "benutzer8",
+			"name": "Benutzer8",
+			"email": "benutzer8@company.com",
+			"password": "1234abcd",
+			"role": "ROLE_USER",
+			"organization": {
+				"id": 1
+			}
+		},
+		{
+			"id": 9,
+			"username": "benutzer9",
+			"name": "Benutzer9",
+			"email": "benutzer9@company.com",
+			"password": "1234abcd",
+			"role": "ROLE_USER",
+			"organization": {
+				"id": 1
+			}
+		},
+		{
+			"id": 10,
+			"username": "benutzer10",
+			"name": "Benutzer10",
+			"email": "benutzer10@company.com",
+			"password": "1234abcd",
+			"role": "ROLE_USER",
+			"organization": {
+				"id": 1
+			}
+		},
+		{
+			"id": 11,
+			"username": "benutzer11",
+			"name": "Benutzer11",
+			"email": "benutzer11@company.com",
+			"password": "1234abcd",
+			"role": "ROLE_USER",
+			"organization": {
+				"id": 1
+			}
+		},
+		{
+			"id": 12,
+			"username": "benutzer12",
+			"name": "Benutzer12",
+			"email": "benutzer12@company.com",
+			"password": "1234abcd",
+			"role": "ROLE_USER",
+			"organization": {
+				"id": 1
+			}
+		}
+	]
+}
